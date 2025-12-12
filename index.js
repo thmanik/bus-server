@@ -7,6 +7,8 @@ const port = process.env.PORT || 5000;
 // MVC
 const userRouter = require("./routes/user.routes");
 const usersController = require("./controllers/users.controller");
+// const userRouter = require("./routes/user.routes");
+// const usersController = require("./controllers/users.controller");
 
 // middleware
 app.use(cors());
